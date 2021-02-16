@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img {
+  width: 66px;
+  height: 59px;
+  margin: 9px -2px;
+}
+#navbar {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  top: 0;
+}
+#logo {
+  margin: 3px 5px;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -1;
+  opacity: 0.4;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+#navbar ul li {
+  font-size: 1.2rem;
+}
+#navbar ul li a {
+  display: block;
+  padding: 32px 33px;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  align-items: center;
+  justify-content: center;
+  height: 476px;
+}
+#home::before {
+  content: "";
+  background: url(/images/pexels-pixabay-326311.jpg) no-repeat center
+    center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+#home h1 {
+  text-align: center;
+  color: white;
+}
+#home p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.h_primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  text-align: center;
+}
+.h_secondary {
+  font-size: 2.3rem;
+}
+.center {
+  text-align: center;
+}
+.btn {
+  color: white;
+  background: brown;
+  border: 2px solid white;
+  margin: 17px;
+  font-size: 1.5rem;
+  padding: 6px 28px;
+  border-radius: 27px;
+  cursor: pointer;
+}
+#services {
+  display: flex;
+  margin: 12px;
+}
+#services img {
+  display: block;
+  height: 156px;
+  width: 156px;
+  margin: auto;
+}
+
+#services .box {
+  border: 2px solid brown;
+  width: 800px;
+  height: 300px;
+  margin: 16px 5px;
+  padding: 19px 12px;
+  border-radius: 30px;
+}
+h2 {
+  padding-top: 20px;
+}
+.client-items img {
+  height: 124px;
+  width: 130px;
+}
+#clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-items {
+  padding: 25px;
+}
+#client-section::before {
+  content: "";
+  background: url("/images/pexels-rovenimagescom-949587.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+#client-section {
+  position: relative;
+  height: 344px;
+}
+#contact-form {
+  position: relative;
+}
+#contact-form::before {
+  content: "";
+  background: url("/images/pexels-chepté-cormani-1416530.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+footer {
+  background: black;
+  padding: 9px 18px;
+  color: white;
+}
+#contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+#contact-box .form-group {
+  padding: 5px 9px;
+}
