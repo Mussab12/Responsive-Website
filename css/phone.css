@@ -1,6 +1,10 @@
 #services {
   flex-direction: column;
 }
+#services .box {
+  width: 295px;
+  height: 295px;
+}
 #client-section {
   overflow: hidden;
 }
