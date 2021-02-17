@@ -59,7 +59,7 @@ img {
 }
 #home::before {
   content: "";
-  background: url(/images/pexels-pixabay-326311.jpg) no-repeat center
+  background: url('../images/pexels-pixabay-326311.jpg') no-repeat center
     center/cover;
   position: absolute;
   top: 0;
@@ -136,7 +136,7 @@ h2 {
 }
 #client-section::before {
   content: "";
-  background: url("/images/pexels-rovenimagescom-949587.jpg") no-repeat center
+  background: url('../images/pexels-rovenimagescom-949587.jpg') no-repeat center
     center/cover;
   position: absolute;
   height: 100%;
@@ -153,7 +153,7 @@ h2 {
 }
 #contact-form::before {
   content: "";
-  background: url("/images/pexels-chepté-cormani-1416530.jpg") no-repeat center
+  background: url('../images/pexels-chepté-cormani-1416530.jpg') no-repeat center
     center/cover;
   position: absolute;
   z-index: -1;
