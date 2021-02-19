@@ -58,7 +58,7 @@ img {
   padding: 3px 200px;
   align-items: center;
   justify-content: center;
-  height: 530px;
+  
 }
 #home::before {
   content: "";
